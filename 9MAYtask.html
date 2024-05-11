@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9 May - Task</title> 
+    
+</head>
+<body style="background-color: rgb(180, 119, 145); font-family: 'Times New Roman'">
+    <!-- PART 1 -->
+    <center>
+    <h1> Images in Tables </h1> <hr>
+    <h2>What is your favorite animal?</h2>
+    <table border="1" style="width:50%">
+        <thead>
+            <th> Pet Image </th>
+            <th>Information about it as a link</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td> <center> <img src="ph1.jfif" style="width:300px;height:200px;" alt="Gazelle" title="Gazelle"> </center> </td>
+            <td> <center> <a href="https://www.worldatlas.com/articles/gazelle-facts-animals-of-the-world.html">Gazelle</a> </center></td>
+        </tr>
+        <tr>
+            <td> <center><img src="ph2.jfif" style="width:300px;height:200px;" alt="Butterfly" title="Butterfly"></center> </td>
+            <td><center> <a href="https://en.wikipedia.org/wiki/File:Viceroy_Butterfly.jpg">Butterfly</a></center></td>
+        </tr>
+         <tr>
+            <td> <center><img src="ph3.jpg" style="width:300px;height:200px;" alt="Cat" title="Cat"> </center></td>
+            <td> <center><a href="https://en.wikipedia.org/wiki/Cat">Cat</a></center></td>
+        </tr>
+        </tbody>
+    </table>
+    <HR>
+    <!-- PART 2 -->
+    <h1>TIME TABLE</h1>
+    <table border="1" border-collapse="collapse" style="width:80%">
+         <thead width="100px" height="50px"> 
+          <th>Day/Period</th>
+          <th>I <br> 9:30 - 10:20</th>
+          <th>II <br> 9:30 - 10:20</th>
+          <th>III <br> 9:30 - 10:20</th>
+          <th>12:00 - 12:40</th>
+          <th>IV <br> 12:40 - 1:30</th>
+          <th>V <br> 1:30 - 2:20</th>
+          <th>VI <br> 2:20 - 3:10</th>
+          <th>VII <br> 3:10 - 4:00</th>
+         </thead>
+         <tbody>
+          <tr width="100px" height="50px">
+            <th> Monday </th>
+            <td> <center>Eng </center></td>
+            <td><center> Mat </center></td>
+            <td><center> che </center></td>
+            <th rowspan="6">L<BR><BR>U<BR><BR>N<BR><BR>C<BR><BR>H</th>
+            <td colspan="3" ><center>LAB</center></td>
+            <td><center> Phy </center></td>
+          </tr>
+          <tr width="100px" height="50px">
+            <th> Tuesday </th>
+            <td colspan="3" ><center>LAB</center></td>
+            <td> <center>Eng </center></td>
+            <td><center> Che </center></td>
+            <td><center> Mat </center></td>
+            <td><center> SPORTS </center></td>
+          </tr>
+          <tr width="100px" height="50px">
+            <th> Wensday </th>
+            <td><center> Mat </center></td>
+            <td><center> Phy </center></td>
+            <td><center> Eng </center></td>
+            <td><center> Che </center></td>
+            <td colspan="3" ><center>LIBRARY</center></td>
+          </tr>
+          <tr width="100px" height="50px">
+            <th> Thusday </th>
+            <td><center> Phy </center></td>
+            <td><center> Eng </center></td>
+            <td><center> Che </center></td>
+            <td colspan="3" ><center>LAB</center></td>
+            <td><center> Mat </center></td>
+          </tr>
+          <tr width="100px" height="50px">
+            <th> Friday </th>
+            <td colspan="3" ><center>LAB</center></td>
+            <td> <center>Mat </center></td>
+            <td><center> Che </center></td>
+            <td><center> Eng </center></td>
+            <td><center> Phy </center></td>
+          </tr>
+          <tr width="100px" height="50px">
+            <th> Saturday </th>
+            <td><center> Eng </center></td>
+            <td><center> Che </center></td>
+            <td><center> Mat </center></td>
+            <td colspan="3" ><center>SEMINAR</center></td>
+            <td><center> SPORTS </center></td>
+          </tr>
+         </tbody>
+    </table>
+</center>
+<!-- PART 3 -->
+<hr>
+<p>Preceding Text</p>
+<ol type="I">
+    <li>List Item 1</li>
+    <ol type="a">
+        <li>Nested Item 1.1</li>
+        <li>Nested Item 1.2</li>
+    </ol>
+    <li>List Item 2</li>
+    <ol type="1">
+        <li>Nested Item 2.1</li>
+        <li>Nested Item 2.2</li>
+             <ul style="list-style-type:circle;">
+                <li>Nested Item 2.2.1</li>
+                <li>Nested Item 2.2.2</li>
+                    <ul >
+                      <li>Nested Item 2.2.2.1</li>
+                      <li>Nested Item 2.2.2.2</li>
+                    </ul>
+                <li>Nested Item 2.2.3</li>   
+             </ul>
+             <li>Nested Item 2.3</li>
+    </ol>
+    <li>List Item 3</li>
+    <ul style="list-style-type:disc;">
+        <li>Nested Item 3.1</li> 
+        <li>Nested Item 3.2</li> 
+        <li>Nested Item 3.3</li>  
+</ol>
+<!-- PART 4 -->
+<hr>
+<center>
+  <style>
+    fieldset {
+      background-color: rgb(140, 59, 98);
+    }
+  </style>
+<fieldset style="width: 300px; height: 150px; border: 1px solid black; position: center;">
+    <legend>Personal Details</legend>
+    <form>
+        <label for="fname" >First name</label>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name</label>&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="Email">Email Address</label>&nbsp;      &nbsp;
+        <input type="text" id="Email" name="Email"><br><br>
+    <span > Gender</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="radio" id="Female" name="Gender" value="Female" >
+        <label for="Gender" >Female</label>
+    <input type="radio" id="male" name="Gender" value="male">
+        <label for="Gender">Male</label>
+      </form>
+      <br>
+     
+<fieldset style="width: 250px; height: 50px; border: 1px solid black; position: center;">
+        <legend>City</legend>  
+        <label for="City Name">City </label>&nbsp;&nbsp;
+  <select id="City Name">
+   <option value="Amman">Amman</option>
+   <option value="Karak">Karak</option>
+   <option value="Zarqaa">Zarqaa</option>
+   <option value="Jerash">Jerash</option>
+   <option value="Tafila">Tafila</option>
+   <option value="Aqaba">Aqaba</option>
+   <option value="Maan">Maan</option>
+   <option value="Salt">Salt</option>
+   <option value="Mafraq">Mafraq</option>
+   <option value="Madaba">Madaba</option>
+   <option value="Ajloun">Ajloun</option>
+   <option value="Irbid" selected>Irbid</option>
+  </select>
+</fieldset> <br>
+<form action="/action_page.php" method="get"></form>
+  <input type="submit" value="Subscribe"><br><br><br>
+</center> <br><br><br><br><br><br><br><br><hr>
+<!-- PART 5 -->
+<center><h1> Our First Form!</h1>
+<fieldset style="width: 300px; height: 100px; border: 1px solid black; position: center;">
+<form action="/action_page.php">
+  <label for="Username">Username:</label>&nbsp;
+  <input type="text" id="Username" name="Username"><br><br>
+  <label for="Password">Password:</label>&nbsp;&nbsp;
+  <input type="password" id="Password" name="Password"><br><br>
+  <input type="submit" value="Login">
+</form> 
+</fieldset></center>
+<!-- PART 6 -->
+<br><hr>
+<center><h1> Registration Form!</h1>
+<fieldset style="width: 300px; height: 300px; border: 1px solid black; position: center;">
+  <h3> Personal Details</h3>
+  <hr>
+  <form>
+    <label for="fname" >First name:</label>
+    <input type="text" id="fname" name="fname"><br><br></td>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="Email">Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" id="Email" name="Email"><br><br>
+    <span > Gender:</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="radio" id="Female" name="Gender" value="Female" >
+    <label for="Gender" >Female</label>
+    <input type="radio" id="male" name="Gender" value="male">
+    <label for="Gender">Male</label>
+  </form><br>
+  <label for="City Name">City: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <select id="City Name">
+   <option value="Amman">Amman</option>
+   <option value="Karak">Karak</option>
+   <option value="Zarqaa">Zarqaa</option>
+   <option value="Jerash">Jerash</option>
+   <option value="Tafila">Tafila</option>
+   <option value="Aqaba">Aqaba</option>
+   <option value="Maan">Maan</option>
+   <option value="Salt">Salt</option>
+   <option value="Mafraq">Mafraq</option>
+   <option value="Madaba">Madaba</option>
+   <option value="Ajloun">Ajloun</option>
+   <option value="Irbid" selected>Irbid</option>
+  </select>
+    <form action="/action_page.php">
+    <br><input type="submit" value="Sign In">
+  </center>
+</body>
+</html>
