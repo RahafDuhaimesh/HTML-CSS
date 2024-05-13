@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+          text-align: left;
+          padding: 10px;
+        }
+
+        .column {
+          text-align: center;
+          float: left;
+          width: 25%;
+          margin-left: 70px;
+          margin-top: 20px;
+          border: 1px solid;
+          height: 500px;
+          position: relative;
+          overflow: hidden;
+          
+        }
+
+        .img {
+            width: 100%;
+            height: 200px;
+        }
+
+        .footer {
+          background-color: #423f3f;
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          text-align: center;
+          padding: 10px;
+          margin: 0; 
+          color: aliceblue;
+        }
+    </style>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif;">
+    <div class="column">
+        <h1>A Short Heading</h1>
+        <img src="rose1.jpg" class="img">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elsim ex. Quisque interdum ut nisi sit amet
+            ullamcorper.  m, quis o feugiat. Aenean risus mi
+            lacinia
+        </p>
+    </div>
+
+    <div class="column">
+        <h1>A Short Heading</h1>
+        <img src="rose2.jpg" class="img">
+        <p>short content</p>
+        <p class="footer">I'm the Footer</p> <!-- Move the footer inside the column -->
+    </div>
+
+    <div class="column">
+        <h1>A Long Heading in this card</h1>
+        <img src="rose3.jpg" class="img">
+        <p>Lorem ipsum dolor sit amet, consectetur Mauris pretium nunc nec est dignissim, quis rutrum justo feugiat. Aenean risus mi
+            lacinia
+        </p>
+        <p class="footer">I'm the Footer</p> <!-- Move the footer inside the column -->
+    </div>
+</body>
+</html>

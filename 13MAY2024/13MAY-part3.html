@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>13MAY-part3</title>
+    <style>
+        .BigBox {
+            border: 2px dotted black;
+            display: inline-block;
+        }
+       .ThreeBoxes {
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+       }
+       #GreenBox {
+        background-color: green;
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+       }
+    </style>
+</head>
+<body>
+    <p>postion: static</p>
+    <div class="BigBox">
+     <span class="ThreeBoxes">One</span>
+     <span id="GreenBox">Two</span>
+     <span class="ThreeBoxes">Three</span>
+     <span class="ThreeBoxes">Four</span>
+    </div>
+
+    <p>postion: relative</p>
+    <div class="BigBox">
+        <span class="ThreeBoxes">One</span>
+        <span id="GreenBox"style="position: relative; top: 20px; left: 20px;" >Two</span>
+        <span class="ThreeBoxes">Three</span>
+        <span class="ThreeBoxes">Four</span>
+    </div>
+    
+    <p>postion: absolute </p>
+    <div class="BigBox" style="position: relative;">
+        <span class="ThreeBoxes">One</span>
+        <span id="GreenBox" style="position: absolute; top: 10px; left: 10px; ">Two</span>
+        <span class="ThreeBoxes">Three</span>
+        <span class="ThreeBoxes">Four</span>
+    </div>
+</body>
+</html>
