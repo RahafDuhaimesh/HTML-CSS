@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15MAY Task</title>
+    <style>
+        /* First Section */
+        .section1 {
+            background-image: url("bb.jpg");
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 70px;
+           font-size: 24px;
+           text-align: center; 
+        }
+        .first {
+            padding: 20px;
+            border: 1px solid white;
+            width: fit-content;
+            display: flex;
+            align-self: center;
+            justify-content: space-evenly;
+            background-color: rgb(73, 70, 70);
+        }
+        /* Second Section */
+        .Section2-1 {
+            background-color: aliceblue;
+            padding: 4%;
+            font-size: 20px;
+        }
+        .Section2-1, .Section3-2, .Section3-1, .Section3-2-1, .Section3-2-2 {
+            text-align: center;
+        }
+        .column {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-around;
+            text-align: center;
+            width: 28%;
+            margin: 20px;
+            position: relative;
+            background-color: aliceblue;
+            height: 500px;
+        }
+        .img {
+            width: 100%;
+            height: 40%;
+        }
+        .columns {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        /* Third Section */
+        .Section3-1 {
+            background-color: aliceblue;
+            padding:20px;
+            font-size: 20px;
+            margin: 20px;
+        }
+        .Section3-2 {
+            display: flex;
+            width: 100%;
+            height: 20vh; 
+        }
+        .Section3-2-1, .Section3-2-2 {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+            font-size: 20px;
+            color: aliceblue;
+        }
+        .Section3-2-1 {
+            background-color: rgb(118, 168, 220);
+        }
+        .Section3-2-2 {
+            background-color: rgb(84, 89, 92);
+        }
+        .Section3-3 {
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 30px;
+            font-size: 20px;
+        }
+        /* Media Query for Desktops */
+         @media only screen and (min-width: 1024px) {
+    /* First Section */
+    .section1 {
+        padding: 100px;
+    }
+    .first {
+        padding: 30px;
+    }
+
+    /* Second Section */
+    .column {
+        width: 30%;
+    }
+    .Section3-2 {
+        height: 300px; 
+    }
+    .Section3-2-1, .Section3-2-2 {
+        padding: 20px;
+    }
+
+    /* Third Section */
+    .Section3-1 {
+        padding: 10px;
+    }
+    .Section3-2-1, .Section3-2-2 {
+        font-size: 24px;
+    }
+    .Section3-3 {
+        padding: 50px;
+    }
+}
+
+/* Media Query for Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* First Section */
+    .section1 {
+        padding: 80px;
+    }
+    .first {
+        padding: 20px;
+    }
+
+    /* Second Section */
+    .column {
+        width: 40%;
+    }
+    .Section3-2 {
+        height: auto;
+    }
+    .Section3-2-1, .Section3-2-2 {
+        padding: 15px;
+    }
+
+    /* Third Section */
+    .Section3-1 {
+        padding: 20px;
+    }
+    .Section3-2-1, .Section3-2-2 {
+        font-size: 20px;
+    }
+    .Section3-3 {
+        padding: 30px;
+    }
+}
+
+/* Media Query for Mobile Phones */
+@media only screen and (max-width: 767px) {
+    /* First Section */
+    .section1 {
+        padding: 60px;
+    }
+    .first {
+        padding: 15px;
+    }
+
+    /* Second Section */
+    .column {
+        width: 80%;
+    }
+    .Section3-2-1, .Section3-2-2 {
+        padding: 10px;
+    }
+
+    /* Third Section */
+    .Section3-1 {
+        padding: 10px;
+    }
+    .Section3-2-1, .Section3-2-2 {
+        font-size: 18px;
+    }
+    .Section3-3 {
+        padding: 20px;
+    }
+}
+
+    </style>
+</head>
+<body style="background-color: rgb(59, 56, 61);">
+
+    <!-- First Section  -->
+    <div class="section1">
+        <h1>Welcome to Responsive Web</h1>
+        <p style="font-size: 20px;">Web pages can be viewed using many different devices: desktops, tablets, and phones.
+            Your web page should look good, and be easy to use, regardless of the device.</p>
+        <center><p class="first">Read More</p></center>
+    </div>
+
+    <!-- Second Section  -->
+    <div>
+        <div class="Section2-1">
+            <h2>Responsive Web Design</h2><br>
+            <p>Web pages can be viewed using many different devices: desktops, tablets, and phones.
+                Your web page should look good, and be easy to use, regardless of the device.
+                Responsive web design uses only HTML and CSS.
+            </p>
+        </div>
+        <div class="columns">
+            <div class="column">
+                <img src="x.jpg" class="img">
+                <p><b>Why Responsive?</b></p>
+                <p>Web pages can be viewed using many different devices: desktops, tablets, and phones.
+                    Your web page should look good, and be easy to use, regardless of the device.
+                </p>
+            </div>
+            <div class="column">
+                <img src="y.jpg" class="img">
+                <p><b>Same Experience Everywhere</b></p>
+                <p>Web pages can be viewed using many different devices: desktops, tablets, and phones.
+                    Your web page should look good, and be easy to use, regardless of the device.
+                </p>
+            </div>
+            <div class="column">
+                <img src="z.webp" class="img">
+                <p><b>Improve your accessibility</b></p>
+                <p>Web pages can be viewed using many different devices: desktops, tablets, and phones.
+                    Your web page should look good, and be easy to use, regardless of the device.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Third Section  -->
+    <div class="Section3-1">
+        <h2>Develop Your Website</h2>
+        <p>Web pages can be viewed using many different devices: desktops, tablets, and phones.
+            Your web page should look good, and be easy to use, regardless of the device.
+            Responsive web design uses only HTML and CSS.
+        </p>
+    </div>
+    <div class="Section3-2">
+        <div class="Section3-2-1">
+        <div>Contact Us</div>
+        <div>Web pages can be viewed using many different devices</div>
+        <div>info@gmail.com</div>
+        </div>
+        <div class="Section3-2-2">
+            <div>About Us</div>
+            <div>Web pages can be viewed using many different devices</div>
+            <div>www.web.com</div>
+        </div>
+    </div>
+    <div class="Section3-3">
+        <div>Web pages can be viewed</div>
+        <div>Web pages can be viewed <span style="color: blue;"> many different devices </span></div>
+    </div>
+
+</body>
+</html>
